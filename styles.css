@@ -1,0 +1,198 @@
+/* font importing */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Righteous&family=Sarala&display=swap');
+
+/* reseting css rules */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Righteous","Sarala";
+}
+
+:root {
+    --pink: #c78494;
+    --pink1: #d591a1;
+    --pink2: #e39eae;
+    --pink3: #f1abbc;
+    --pink4: #ffb8c9;
+
+}    
+
+html, 
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: var(--pink);
+}
+
+.content {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 125 px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: 24px;
+    color: var(--pink4)
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #c93fbd83;
+}
+
+.header-block img {
+    width: 100%;
+    margin-top: 70px;
+    position: central;
+    right: 2%;
+    bottom:2%
+}
+
+/* Product Catalog */
+
+section .catalog {
+    width: 100vw;
+    padding: 100px;
+
+}
+
+section .filter-card {
+    width: 980px;
+    height: 150px;
+    background: rgb(226, 219, 219);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    text-indent: 10px;
+}
+
+.pesquisar-button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    background-color: var(--pink2);
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.2s ease;
+}
+
+.pesquisar-button:hover {
+    background: #dedede;
+    color: #c78494;
+
+}
+
+.title-wrapper-rodutos {
+    margin-top: 200px;
+    padding-bottom: 20px;
+}
+
+section .card-wrapper {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding: 50px;
+
+}
+
+section .card-item {
+    height: 400px;
+    background: rgb(226, 219, 219);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.card-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-item img{
+    width: 65%;
+}
+
+.card-item h4 {
+    width: 90%;
+}
+
+.card-item p {
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+}
+
+.card-item button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: var(--pink2);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.card-item button:hover {
+    background: #dedede;
+    color: #c78494;
+
+}
