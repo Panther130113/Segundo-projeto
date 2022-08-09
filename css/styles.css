@@ -132,6 +132,7 @@ section .filter-card {
 .title-wrapper-rodutos {
     margin-top: 200px;
     padding-bottom: 20px;
+    font-size: 30px;
 }
 
 section .card-wrapper {
@@ -277,6 +278,7 @@ section .card-item {
 
 .title-wrapper-Depoimentos {
     padding: 20px 0px;
+    font-size: 25px;
 }
 
 .feature-card-block {
@@ -291,4 +293,28 @@ section .card-item {
     display: grid;
     grid-template-columns: repeat(auto-fill, minimax(420px, 1fr));
     grid-gap: 30px;
+} 
+
+.feature-card-item {
+    max-width: 420px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #dedede3b;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.feature-text-content {
+    max-width: 60%;
+    margin: 5px;
+
+}
+
+.feature-card-item img {
+    width: 100px;
+    height: 125px;
+    border-radius: 10px;
 }
