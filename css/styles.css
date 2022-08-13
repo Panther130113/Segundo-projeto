@@ -349,7 +349,10 @@ footer .main {
     color: white;
     height: 100%;
     min-height: 100px;
-
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration:solid
+    
 }
 
 
